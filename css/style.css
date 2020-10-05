@@ -1,0 +1,438 @@
+/* font-family: 'Playfair Display', serif;  */
+/* font-family: 'Ubuntu', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start here  */
+
+        header{
+
+        overflow: hidden;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+}
+        .logo{
+
+        width: 20%;
+        float: left;
+}
+        nav{
+
+        width: 50%;
+        float: right;
+}
+        nav ul{
+
+        list-style: none;
+}
+        nav ul li{
+
+        float: left;
+        margin-left: 100px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #626262;
+        text-transform: uppercase;
+        font-family: 'Playfair Display', serif;
+}
+     /* header part end here  */
+
+     /* banner part start here  */
+        .Banner{
+
+         width: 90%;
+         margin: auto;
+}
+     .Banner img{
+
+         width: 100%;
+         margin-top: 60px;
+}
+     /* banner part ends here  */
+
+     /* photodiary paragraph start here  */
+     
+     .photodiary{
+
+        width: 80%;
+
+        margin: auto;
+
+        padding: 50px 0;
+
+}
+     .photodiary h6{
+
+        color: #b4ad9e;
+
+        font-size: 14px;
+
+        font-weight: 300;
+
+        text-transform: uppercase;
+
+        margin-bottom: 20px;
+
+        font-family: 'Ubuntu', sans-serif;
+
+}
+     .photodiary h1{
+
+        color: #626262;
+
+        font-size: 30px;
+
+        font-weight: 400;
+        text-transform: initial;
+
+        font-family: 'Playfair Display', serif;
+
+        margin-bottom: 30px;
+
+}
+     .photodiary p{
+         
+        color: #626262;
+                
+        font-size: 13px;
+                
+        font-weight: 400;
+                
+        font-family: 'Playfair Display', serif;
+                
+        margin-bottom: 30px;
+                
+        line-height: 1.6;
+        letter-spacing: 1.3px;
+}
+   /* photodiary part ends here  */
+
+   /* lifestyle section  start  */
+        .lifestyle{
+   
+            width: 80%;
+            
+            margin: auto;
+            
+            padding: 50px 0;
+}
+        .lifestyle-content{
+                
+            overflow: hidden;
+   
+}
+        .lifestyle-one{
+
+            float: left;
+
+            width: 45%;
+}
+        .lifestyle-one img, .lifestyle-two img {
+
+            width: 100%;
+}
+        .lifestyle-one h6, .lifestyle-two h6{
+
+            padding: 15px 0;
+            text-align: left;
+
+            color: #b4ad9e;
+
+            font-size: 14px;
+
+            font-weight: 300;
+
+            text-transform: uppercase;
+
+            margin-bottom: 20px;
+
+            font-family: 'Ubuntu', sans-serif;
+}
+        .lifestyle-one h1, .lifestyle-two h1{
+
+            color: #626262;
+
+            font-size: 30px;
+
+            font-weight: 400;
+
+            text-transform: inherit;
+
+            font-family: 'Playfair Display', serif;
+
+            margin-bottom: 30px;
+
+            text-align: left;
+}
+        .lifestyle-one p, .lifestyle-two p{
+   
+            color: #626262;
+                    
+            font-size: 12px;        
+            font-weight: 400;        
+            font-family: 'Playfair Display', serif;         
+            margin-bottom: 30px;         
+            line-height: 1.6;
+            letter-spacing: 1.4px;
+            text-align: left;
+
+}
+        .lifestyle-two{
+    
+            float: right;
+    
+            width: 45%;
+}
+    /* lifestyle-second part start here  */
+        .lifestyle-photodiary{
+
+            overflow: hidden;
+
+            margin-top: 80px;
+}
+        .lifestyle-three{
+
+            float: left;
+            
+            width: 45%;
+}
+        .lifestyle-four{
+
+            float: right;
+            
+            width: 45%;
+}
+
+        .lifestyle-three img, .lifestyle-four img, .lifestyle-five img, .lifestyle-six img{
+
+            width: 100%;
+}
+        .lifestyle-three h6, .lifestyle-four h6, .lifestyle-five h6, .lifestyle-six h6{
+        
+            padding: 15px 0;
+            text-align: left;
+        
+            color: #b4ad9e;
+        
+            font-size: 14px;
+        
+            font-weight: 300;
+        
+            text-transform: uppercase;
+        
+            margin-bottom: 20px;
+        
+            font-family: 'Ubuntu', sans-serif;
+}
+        .lifestyle-three h1, .lifestyle-four h1, .lifestyle-five h1, .lifestyle-six h1{
+        
+            color: #626262;
+        
+             font-size: 30px;
+        
+            font-weight: 400;
+        
+            text-transform: inherit;
+        
+            font-family: 'Playfair Display', serif;
+        
+            margin-bottom: 30px;
+        
+            text-align: left;
+}
+        .lifestyle-three p, .lifestyle-four p, .lifestyle-five p, .lifestyle-six p{
+           
+            color: #626262;
+                 
+            font-size: 12px;        
+            font-weight: 400;        
+            font-family: 'Playfair Display', serif;         
+            margin-bottom: 30px;         
+            line-height: 1.6;
+            letter-spacing: 1.4px;
+            text-align: left;
+        
+}
+   /* lifestyle section  start  */
+
+   /* newsletter part start here  */
+        .newsletter{
+
+            background-color: #f0f0f0;
+}
+        .news{
+
+            width: 30%;
+
+            margin: auto;
+
+            padding: 50px 0;
+
+            position: relative;
+}
+            .news h1{
+
+            color: #626262;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+            text-transform: capitalize;
+            padding-bottom: 80px;
+}
+            .news input{
+
+            border: none;
+
+            background-color: transparent;
+            border-bottom: 1px solid #424242;
+            width: 100%;
+            line-height: 50px;
+            outline:none;
+}
+
+            .news input::placeholder{
+
+            font-size: 14px;
+            color: #626262;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+            text-transform: initial;
+}
+            .icon{
+    
+            position: absolute;
+                
+            right: 2%;
+                
+            bottom: 22%;
+                
+            transform: translate(-2%, -22%);
+}
+   /* newsletter part ends here  */
+
+   /* lifestyle last part start here  */
+
+            .lifestyle-content-last-part{
+
+            overflow: hidden;
+}
+            .lifestyle-five{
+    
+            float: left;
+                        
+            width: 45%;
+}
+            .lifestyle-six{
+
+            float: right;
+            width: 45%;
+}
+            .lifestyle-1{
+   
+            width: 80%;
+                            
+            margin: auto;
+                            
+            margin-top: 80px;
+}
+                
+/* lifestyle last part end here  */
+
+/* load more tag start here  */
+            .load-more-tag{
+                  
+            margin: auto;
+                            
+            position: relative;
+                            
+            padding-block-start: 10%;
+                            
+            padding-block-end: 10%;
+}      
+            .button{
+
+            background-color: transparent;
+            border: 1px solid #424242;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+            outline: none;
+}
+            .button h6{
+
+            padding: 10px 20px;
+            font-size: 20px;
+            color: #626262;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            text-transform: initial;
+                
+}
+            /* load more tag end here  */
+
+            /* footer start here  */
+            footer{
+
+            padding-block-start: 0%;
+
+            padding-block-end: 0%;
+
+            background-color: #f0f0f0;
+
+            overflow: hidden;
+}
+            .footer-content{
+
+            overflow: hidden;
+
+            width: 80%;
+
+            margin: auto;
+
+            margin-bottom: 30px;
+
+            margin-top: 40px;
+}
+            .terms{
+
+            width: 30%;
+            float: left;
+}
+            .terms ul{
+
+            list-style: none;
+
+}
+            .terms ul li{
+
+            float: left;
+
+            margin-right: 20px;
+
+            color: #424242;
+}
+            .social-icon{
+
+            float: right;
+
+            width: 20%;
+}
+            .social-icon ul{
+
+            list-style: none;
+
+            float: right;
+}
+            .social-icon li{
+
+            float: left;
+
+            margin-left: 30px;
+
+            color: #424242;
+}
+            /* footer end here  */
